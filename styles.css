@@ -77,6 +77,9 @@ li {
 
 .information { background-color: white;
     text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    padding: 10px;
     
 
 
@@ -100,7 +103,11 @@ li {
 }
 
 .quote { background-color: lightgray;
-
+    font-size: larger;
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+    margin: 40px;
 }
 
 .lower-body { background-color: blue;
