@@ -64,7 +64,10 @@ li {
 }
 
 
-.button {background-color: blue;
+.button {
+    cursor: pointer;
+    border-radius: 5px;
+    background: royalblue;
     color: white;
     width: 65px;
     padding: 5px;
@@ -92,8 +95,6 @@ li {
     justify-content: center;
     margin: 10px;
     gap: 50px;
-
-
 }
 
 .plant-info {background-color: white;
@@ -110,15 +111,27 @@ li {
     margin: 40px;
 }
 
-.lower-body { background-color: blue;
-
-
+.lower-body-container {
+   display: flex;
+   flex-direction: column;
 }
 
-.lower-body-text { background-color: blue;
-
-
+.lower-body {
+    background-color: aqua;
+    display: flex;
+    padding: 30px;
+    margin: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.lower-body-text {
+    font-weight: 700;
+    font-size: larger;
+}
+
 
 .footer { background-color: darkblue;
 
