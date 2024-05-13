@@ -16,7 +16,7 @@ img {
     justify-content: space-between;
     margin: 0px;
     padding-left: 200px;
-    padding-right: 350px;
+    padding-right: 200px;
     align-items: center;
 }
 
@@ -38,14 +38,18 @@ li {
     display: flex;
     background-color: lightgreen;
     align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 100px;
 }
 
 .title-container {display: flex;
     background-color: lightgreen;
     flex-direction: column;
     box-sizing: border-box;
-    padding: 200px;
-    width: 950px;
+    width: 800px;
 }
 
 .title-image-container img { background-color: lightgreen;
