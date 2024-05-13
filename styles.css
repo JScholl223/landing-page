@@ -143,7 +143,9 @@ li {
     font-weight: bold;
 }
 
-.footer { background-color: darkblue;
-
-
+.footer { background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
