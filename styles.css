@@ -64,18 +64,16 @@ li {
 }
 
 
-.button {
+.upper-button {
     cursor: pointer;
     border-radius: 5px;
     background: royalblue;
     color: white;
     width: 65px;
     padding: 5px;
+    margin: 10px;
     align-content: center;
     justify-content: center;
-
-
-
 }
 
 .information { background-color: white;
@@ -132,6 +130,18 @@ li {
     font-size: larger;
 }
 
+.lower-button {
+    cursor: pointer;
+    border: 5px solid black;
+    border-radius: 8px;
+    background: aqua;
+    color: black;
+    width: 100px;
+    padding: 5px;
+    align-content: center;
+    justify-content: center;
+    font-weight: bold;
+}
 
 .footer { background-color: darkblue;
 
