@@ -15,17 +15,15 @@ img {
     display: flex;
     justify-content: space-between;
     margin: 0px;
-    padding: 10px;
+    padding-left: 200px;
+    padding-right: 350px;
     align-items: center;
-    
-
 }
 
 ul {list-style-type: none;
     display: flex;
     gap: 10px;
     color: white;
-
 }
 
 a {
@@ -40,7 +38,6 @@ li {
     display: flex;
     background-color: lightgreen;
     align-items: center;
-
 }
 
 .title-container {display: flex;
@@ -48,6 +45,7 @@ li {
     flex-direction: column;
     box-sizing: border-box;
     padding: 200px;
+    width: 950px;
 }
 
 .title-image-container img { background-color: lightgreen;
@@ -55,7 +53,6 @@ li {
     width: 100%;
     height: 400px;
     justify-self: start;
-   
 }
 
 .title {
@@ -81,9 +78,6 @@ li {
     font-size: larger;
     font-weight: 700;
     padding: 10px;
-    
-
-
 }
 
 .container { background-color: white;
@@ -97,8 +91,6 @@ li {
 
 .plant-info {background-color: white;
     max-width: 300px;
-
-
 }
 
 .quote { background-color: lightgray;
